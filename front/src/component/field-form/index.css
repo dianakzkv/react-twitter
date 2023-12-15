@@ -1,0 +1,32 @@
+.field-form {
+	display: flex;
+	align-items: center;
+}
+
+.field-form__button {
+	color: #fff;
+	background-color: #0050ff;
+	padding: 10px 16px;
+	border-radius: 24px;
+
+	transition: opacity 0.4s;
+}
+
+.field-form__button:disabled {
+	cursor: default;
+	opacity: 0.7 !important;
+}
+
+.field-form__button:hover {
+	opacity: 0.7;
+}
+
+.field-form__button:active {
+	opacity: 0.3;
+}
+
+.field-form__field {
+	font-size: 14px;
+	line-height: 1.3em;
+	flex-grow: 1;
+}
